@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<!--
+	Road Trip by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+
+{{> Head}}
+
+<body>
+
+	<!-- Header -->
+	{{> Header}}
+
+	<!-- Nav -->
+	{{> Navbar}}
+
+	<!-- Banner -->
+	<!--
+			Note: To show a background image, set the "data-bg" attribute below
+			to the full filename of your image. This is used in each section to set
+			the background image.
+		-->
+	{{> Banner next='one'}}
+
+	<!-- One -->
+	{{> Box number='1' id='one' next='two' categorie='generic'}}
+
+	<!-- Two -->
+	{{> Box number='2' id='two' next='three' categorie='generic'}}
+
+	<!-- Three -->
+	{{> Box number='3' id='three' next='four' categorie='elements'}}
+	
+	<!-- Four -->
+	{{> Box number='4' id='four' next='#' categorie='elements'}}
+
+	<!-- Footer -->
+	{{> Footer}}
+
+	<!-- Scripts -->
+	{{> Scripts}}
+
+</body>
+
+</html>
